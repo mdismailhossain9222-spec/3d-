@@ -1,0 +1,595 @@
+{
+  "categories": [
+    { "name": "Phones", "slug": "phones", "description": "Flagship smartphones engineered by FAISTOF.", "children": [
+      { "name": "Flagship", "slug": "flagship" },
+      { "name": "Essential", "slug": "essential" }
+    ]},
+    { "name": "Accessories", "slug": "accessories", "description": "Precision-built companions for the FAISTOF ecosystem.", "children": [
+      { "name": "Audio", "slug": "audio" },
+      { "name": "Wearables", "slug": "wearables" },
+      { "name": "Power", "slug": "power" },
+      { "name": "Protection", "slug": "protection" }
+    ]}
+  ],
+  "products": [
+    {
+      "slug": "faistof-one",
+      "name": "FAISTOF ONE",
+      "tagline": "The founding flagship. Precision, unleashed.",
+      "categorySlug": "flagship",
+      "basePrice": 14990000,
+      "compareAtPrice": 16490000,
+      "featured": true,
+      "isNew": false,
+      "badge": "FLAGSHIP",
+      "ratingAverage": 4.8,
+      "ratingCount": 214,
+      "description": "FAISTOF ONE is where our obsession began. A monobloc of aerospace-grade metal and etched crystal, tuned around the Vertex 900 silicon and the FAISTOF Adaptive Imaging system. Nothing inside it is decorative. Nothing outside it is compromised.",
+      "highlights": ["6.7\" LumenCore AMOLED · 120Hz LTPO · 3000 nits", "Vertex 900 · 4nm · 3nm NPU co-processor", "108MP Adaptive Optics triple camera", "5400mAh CryoCell · 100W HyperCharge"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 300000 },
+        { "key": "titanium", "label": "Titanium", "hex": "#9A9DA3", "frameHex": "#6e7176", "priceDelta": 500000 },
+        { "key": "silver", "label": "Silver", "hex": "#D8D9DC", "frameHex": "#9fa1a5", "priceDelta": 0 }
+      ],
+      "memory": [
+        { "ram": 12, "storage": 256, "priceDelta": 0, "colors": ["obsidian", "crimson", "titanium", "silver"], "stock": [24, 9, 14, 31] },
+        { "ram": 12, "storage": 512, "priceDelta": 1200000, "colors": ["obsidian", "crimson", "titanium", "silver"], "stock": [18, 6, 11, 20] },
+        { "ram": 16, "storage": 512, "priceDelta": 2000000, "colors": ["obsidian", "crimson"], "stock": [12, 4] },
+        { "ram": 16, "storage": 1024, "priceDelta": 4000000, "colors": ["obsidian"], "stock": [7] }
+      ],
+      "images": [
+        { "url": "/renders/hero-obsidian.jpg", "alt": "FAISTOF ONE floating at three-quarter angle", "colorKey": "obsidian", "primary": true },
+        { "url": "/renders/front-display.jpg", "alt": "FAISTOF ONE front, LumenCore display active", "colorKey": null },
+        { "url": "/renders/back-obsidian.jpg", "alt": "FAISTOF ONE rear in Obsidian", "colorKey": "obsidian" },
+        { "url": "/renders/back-crimson.jpg", "alt": "FAISTOF ONE rear in Crimson", "colorKey": "crimson" },
+        { "url": "/renders/back-titanium.jpg", "alt": "FAISTOF ONE rear in Titanium", "colorKey": "titanium" },
+        { "url": "/renders/back-silver.jpg", "alt": "FAISTOF ONE rear in Silver", "colorKey": "silver" },
+        { "url": "/renders/macro-camera.jpg", "alt": "Macro detail of the Adaptive Optics lens", "colorKey": null },
+        { "url": "/renders/macro-frame.jpg", "alt": "Milled titanium frame and controls", "colorKey": null }
+      ],
+      "specs": {
+        "flat": { "displaySize": 6.7, "refreshHz": 120, "nits": 3000, "chip": "Vertex 900", "ramGb": 12, "storageMaxGb": 1024, "mainCameraMP": 108, "batteryMah": 5400, "wiredChargeW": 100, "wirelessChargeW": 50, "weightG": 199, "os": "FaistOS 2.0", "ip": "IP68" },
+        "groups": [
+          { "group": "Display", "items": [
+            { "label": "Panel", "value": "LumenCore AMOLED, 8T LTPO" },
+            { "label": "Size", "value": "6.7\" (172mm) flat" },
+            { "label": "Resolution", "value": "3200 × 1440 (QHD+), 525 ppi" },
+            { "label": "Refresh", "value": "1–120Hz adaptive" },
+            { "label": "Brightness", "value": "1800 nits typical · 3000 nits peak" },
+            { "label": "Color", "value": "10-bit, ΔE < 1.0, DCI-P3 100%" },
+            { "label": "Protection", "value": "FerroShield Ultra, diamond-stack coating" }
+          ]},
+          { "group": "Performance", "items": [
+            { "label": "SoC", "value": "Vertex 900 · 4nm octa-core, 4.2GHz Prime" },
+            { "label": "GPU", "value": "FAISTOF Photon X, hardware ray tracing" },
+            { "label": "Memory", "value": "12 / 16GB LPDDR5X @ 9600Mbps" },
+            { "label": "AI Engine", "value": "N3 Neural Core · 68 TOPS" },
+            { "label": "Cooling", "value": "VaporGrid 4000mm² + graphene skin" },
+            { "label": "Benchmark class", "value": "1.2M+ (composite sustained)" }
+          ]},
+          { "group": "Camera", "items": [
+            { "label": "Main", "value": "108MP Adaptive Optics · f/1.4–f/4.0 · OIS 2.0" },
+            { "label": "Ultra Wide", "value": "50MP · 114° · f/1.9 · AF macro" },
+            { "label": "Telephoto", "value": "10MP periscope · 3× optical · 70× FAISTOF Zoom" },
+            { "label": "Front", "value": "32MP autofocus under-display" },
+            { "label": "Video", "value": "8K30 · 4K120 HDR · Cinematic Lock" },
+            { "label": "Imaging", "value": "NightSight 4 · TrueTone Skin · AI Object Erase" }
+          ]},
+          { "group": "Battery & Charging", "items": [
+            { "label": "Cell", "value": "5400mAh dual-cell CryoCell" },
+            { "label": "Wired", "value": "100W HyperCharge · 0–100% in 24 min" },
+            { "label": "Wireless", "value": "50W MagLift · 5W reverse share" },
+            { "label": "Health", "value": "90% capacity after 1600 cycles" }
+          ]},
+          { "group": "Body", "items": [
+            { "label": "Dimensions", "value": "162.4 × 76.2 × 8.1 mm" },
+            { "label": "Weight", "value": "199 g (203 g Titanium)" },
+            { "label": "Frame", "value": "Forged FAISTOFlex alloy, bead-blast" },
+            { "label": "Ingress", "value": "IP68 · 6m / 30 min" }
+          ]},
+          { "group": "Connectivity", "items": [
+            { "label": "Cellular", "value": "5G SA/NSA (sub-6 + mmWave), 4×4 MIMO" },
+            { "label": "Wi-Fi", "value": "Wi-Fi 7 (tri-band), 802.11 a/b/g/n/ac/ax" },
+            { "label": "Bluetooth", "value": "5.4 · LE Audio · Auracast" },
+            { "label": "Positioning", "value": "Dual-band GNSS: GPS, GLONASS, Galileo, BeiDou" },
+            { "label": "NFC", "value": "Full card emulation + reader" },
+            { "label": "Port", "value": "USB-C 4 (40Gbps), DisplayPort 2.1" }
+          ]},
+          { "group": "Software", "items": [
+            { "label": "OS", "value": "FaistOS 2.0 (Android 16 base)" },
+            { "label": "Support", "value": "5 years OS + 7 years security" },
+            { "label": "Assistant", "value": "FAISTOF Halo AI on-device + cloud" }
+          ]}
+        ]
+      },
+      "deal": "flash"
+    },
+    {
+      "slug": "faistof-one-pro",
+      "name": "FAISTOF ONE PRO",
+      "tagline": "More light. More reach. Less compromise.",
+      "categorySlug": "flagship",
+      "basePrice": 17990000,
+      "compareAtPrice": null,
+      "featured": true,
+      "isNew": true,
+      "badge": "NEW",
+      "ratingAverage": 4.7,
+      "ratingCount": 118,
+      "description": "ONE PRO widens the aperture — literally. A 1-inch class main sensor, a periscope that pulls the horizon closer, and 6000mAh of CryoCell endurance for the people who never stop shooting.",
+      "highlights": ["6.8\" LumenCore Pro AMOLED · 120Hz LTPO", "Vertex 900+ · 16GB LPDDR5X", "1-inch class 200MP main sensor", "6000mAh · 120W HyperCharge"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 400000 },
+        { "key": "titanium", "label": "Titanium", "hex": "#9A9DA3", "frameHex": "#6e7176", "priceDelta": 0 }
+      ],
+      "memory": [
+        { "ram": 12, "storage": 512, "priceDelta": 0, "colors": ["obsidian", "crimson", "titanium"], "stock": [15, 5, 9] },
+        { "ram": 16, "storage": 512, "priceDelta": 1000000, "colors": ["obsidian", "titanium"], "stock": [11, 7] },
+        { "ram": 16, "storage": 1024, "priceDelta": 3000000, "colors": ["obsidian"], "stock": [6] }
+      ],
+      "images": [
+        { "url": "/renders/angle-obsidian.jpg", "alt": "FAISTOF ONE PRO on dark reflective surface", "colorKey": "obsidian", "primary": true },
+        { "url": "/renders/front-display.jpg", "alt": "ONE PRO display", "colorKey": null },
+        { "url": "/renders/back-obsidian.jpg", "alt": "ONE PRO rear in Obsidian", "colorKey": "obsidian" },
+        { "url": "/renders/back-crimson.jpg", "alt": "ONE PRO rear in Crimson", "colorKey": "crimson" },
+        { "url": "/renders/back-titanium.jpg", "alt": "ONE PRO rear in Titanium", "colorKey": "titanium" },
+        { "url": "/renders/macro-camera.jpg", "alt": "1-inch class sensor lens detail", "colorKey": null }
+      ],
+      "specs": {
+        "flat": { "displaySize": 6.8, "refreshHz": 120, "nits": 3200, "chip": "Vertex 900+", "ramGb": 16, "storageMaxGb": 1024, "mainCameraMP": 200, "batteryMah": 6000, "wiredChargeW": 120, "wirelessChargeW": 50, "weightG": 213, "os": "FaistOS 2.0", "ip": "IP68" },
+        "groups": [
+          { "group": "Display", "items": [
+            { "label": "Panel", "value": "LumenCore Pro AMOLED, micro-lens array" },
+            { "label": "Size", "value": "6.8\" (174mm) quad-curve" },
+            { "label": "Resolution", "value": "3392 × 1536 (2.5K), 551 ppi" },
+            { "label": "Refresh", "value": "1–120Hz LTPO 3.0" },
+            { "label": "Brightness", "value": "2000 nits typical · 3200 nits peak" }
+          ]},
+          { "group": "Performance", "items": [
+            { "label": "SoC", "value": "Vertex 900+ · 4nm octa-core, 4.32GHz Prime" },
+            { "label": "GPU", "value": "FAISTOF Photon X Pro, ray tracing 2.0" },
+            { "label": "Memory", "value": "12 / 16GB LPDDR5X @ 10700Mbps" },
+            { "label": "Cooling", "value": "VaporGrid 5200mm², dual-phase" }
+          ]},
+          { "group": "Camera", "items": [
+            { "label": "Main", "value": "200MP 1\" class sensor · f/1.3–f/4.0 · sensor-shift OIS" },
+            { "label": "Ultra Wide", "value": "50MP · 118° · AF" },
+            { "label": "Telephoto", "value": "64MP periscope · 3.5× · 120× FAISTOF Zoom" },
+            { "label": "Video", "value": "8K60 · 4K120 ProRes LOG · Cinematic Lock 2" }
+          ]},
+          { "group": "Battery & Charging", "items": [
+            { "label": "Cell", "value": "6000mAh silicon-carbon CryoCell" },
+            { "label": "Wired", "value": "120W HyperCharge · 0–100% in 19 min" },
+            { "label": "Wireless", "value": "50W MagLift" }
+          ]},
+          { "group": "Body", "items": [
+            { "label": "Dimensions", "value": "164.9 × 77.4 × 8.4 mm" },
+            { "label": "Weight", "value": "213 g" },
+            { "label": "Ingress", "value": "IP68" }
+          ]},
+          { "group": "Connectivity", "items": [
+            { "label": "Cellular", "value": "5G SA/NSA · satellite SOS" },
+            { "label": "Wi-Fi", "value": "Wi-Fi 7 · 6GHz" },
+            { "label": "Bluetooth", "value": "5.4 · LE Audio" },
+            { "label": "Port", "value": "USB-C 4" }
+          ]}
+        ]
+      },
+      "deal": "flagship"
+    },
+    {
+      "slug": "faistof-one-ultra",
+      "name": "FAISTOF ONE ULTRA",
+      "tagline": "The absolute. Machined from conviction.",
+      "categorySlug": "flagship",
+      "basePrice": 21990000,
+      "compareAtPrice": null,
+      "featured": true,
+      "isNew": true,
+      "badge": "ULTRA",
+      "ratingAverage": 4.9,
+      "ratingCount": 64,
+      "description": "ULTRA is not a spec sheet; it is a statement. Grade-5 titanium skeleton, ceramic-laminate back, a 5× periscope with active stabilization, and 2TB of storage. Made in a numbered series of 20,000 units for the Bangladesh & South Asia region.",
+      "highlights": ["6.9\" LumenCore Ultra · 2K+ · 120Hz", "Grade-5 titanium · Ceramic laminate back", "5× periscope · 200MP main · 200× zoom", "6500mAh · 120W wired / 80W wireless"],
+      "colors": [
+        { "key": "titanium", "label": "Raw Titanium", "hex": "#9A9DA3", "frameHex": "#6e7176", "priceDelta": 0 },
+        { "key": "obsidian", "label": "Midnight Titanium", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson Edition", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 1500000 }
+      ],
+      "memory": [
+        { "ram": 16, "storage": 512, "priceDelta": 0, "colors": ["titanium", "obsidian", "crimson"], "stock": [8, 6, 2] },
+        { "ram": 16, "storage": 1024, "priceDelta": 3000000, "colors": ["titanium", "obsidian"], "stock": [5, 4] },
+        { "ram": 20, "storage": 2048, "priceDelta": 7000000, "colors": ["crimson"], "stock": [0] }
+      ],
+      "images": [
+        { "url": "/renders/back-titanium.jpg", "alt": "FAISTOF ONE ULTRA rear in Raw Titanium", "colorKey": "titanium", "primary": true },
+        { "url": "/renders/angle-obsidian.jpg", "alt": "ULTRA dramatic angle", "colorKey": "obsidian" },
+        { "url": "/renders/front-display.jpg", "alt": "ULTRA 2K+ display", "colorKey": null },
+        { "url": "/renders/back-crimson.jpg", "alt": "Crimson Edition", "colorKey": "crimson" },
+        { "url": "/renders/macro-frame.jpg", "alt": "Grade-5 titanium detailing", "colorKey": null },
+        { "url": "/renders/macro-camera.jpg", "alt": "Periscope lens assembly", "colorKey": null }
+      ],
+      "specs": {
+        "flat": { "displaySize": 6.9, "refreshHz": 120, "nits": 3500, "chip": "Vertex 900X", "ramGb": 16, "storageMaxGb": 2048, "mainCameraMP": 200, "batteryMah": 6500, "wiredChargeW": 120, "wirelessChargeW": 80, "weightG": 226, "os": "FaistOS 2.0", "ip": "IP69" },
+        "groups": [
+          { "group": "Display", "items": [
+            { "label": "Panel", "value": "LumenCore Ultra AMOLED, anti-reflective stack" },
+            { "label": "Size", "value": "6.9\" (176mm) true-flat" },
+            { "label": "Resolution", "value": "3440 × 1600 (2K+), 581 ppi" },
+            { "label": "Refresh", "value": "1–120Hz LTPO 3.0" },
+            { "label": "Brightness", "value": "2200 nits typical · 3500 nits peak" }
+          ]},
+          { "group": "Performance", "items": [
+            { "label": "SoC", "value": "Vertex 900X · 3nm class, 4.5GHz Prime" },
+            { "label": "GPU", "value": "Photon X Ultra · dedicated ray cores" },
+            { "label": "Memory", "value": "16 / 20GB LPDDR5X @ 10700Mbps" },
+            { "label": "Storage", "value": "UFS 4.1 · up to 2TB" },
+            { "label": "Cooling", "value": "VaporGrid 6400mm² + titanium spine" }
+          ]},
+          { "group": "Camera", "items": [
+            { "label": "Main", "value": "200MP 1\" class · f/1.2–f/4.0 · sensor-shift OIS" },
+            { "label": "Ultra Wide", "value": "50MP · 120°" },
+            { "label": "Telephoto", "value": "64MP 5× periscope · dual-axis stabilization" },
+            { "label": "Zoom", "value": "200× FAISTOF Zoom, AI-resolved" },
+            { "label": "Video", "value": "8K60 AV1 · 4K120 ProRes LOG · timecode sync" }
+          ]},
+          { "group": "Battery & Charging", "items": [
+            { "label": "Cell", "value": "6500mAh dual-cell CryoCell HD" },
+            { "label": "Wired", "value": "120W · 0–100% in 21 min" },
+            { "label": "Wireless", "value": "80W MagLift Ultra" }
+          ]},
+          { "group": "Body", "items": [
+            { "label": "Dimensions", "value": "166.8 × 78.9 × 8.6 mm" },
+            { "label": "Weight", "value": "226 g" },
+            { "label": "Materials", "value": "Grade-5 titanium frame · ceramic laminate back" },
+            { "label": "Ingress", "value": "IP69" }
+          ]},
+          { "group": "Connectivity", "items": [
+            { "label": "Cellular", "value": "5G Advanced · satellite messaging + SOS" },
+            { "label": "Wi-Fi", "value": "Wi-Fi 7 · dual concurrent" },
+            { "label": "UWB", "value": "2nd gen precision finding" },
+            { "label": "Port", "value": "USB-C 4 · Thunderbolt compatible" }
+          ]}
+        ]
+      },
+      "deal": "flagship"
+    },
+    {
+      "slug": "faistof-lite",
+      "name": "FAISTOF LITE",
+      "tagline": "The essential. Nothing shallow.",
+      "categorySlug": "essential",
+      "basePrice": 7990000,
+      "compareAtPrice": 8990000,
+      "featured": false,
+      "isNew": false,
+      "badge": "ESSENTIAL",
+      "ratingAverage": 4.5,
+      "ratingCount": 342,
+      "description": "LITE carries the FAISTOF DNA — the same etched glass language, the same Vertex-class tuning — in a lighter, fairer package. Proof that restraint is its own kind of power.",
+      "highlights": ["6.55\" LumenCore AMOLED · 120Hz", "Vertex 7s · 8GB LPDDR5", "50MP dual Adaptive Optics", "5000mAh · 67W ChargeFlow"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "silver", "label": "Silver", "hex": "#D8D9DC", "frameHex": "#9fa1a5", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 200000 }
+      ],
+      "memory": [
+        { "ram": 8, "storage": 128, "priceDelta": 0, "colors": ["obsidian", "silver"], "stock": [42, 60] },
+        { "ram": 8, "storage": 256, "priceDelta": 800000, "colors": ["obsidian", "silver", "crimson"], "stock": [35, 48, 12] },
+        { "ram": 12, "storage": 256, "priceDelta": 1400000, "colors": ["obsidian"], "stock": [22] },
+        { "ram": 12, "storage": 512, "priceDelta": 2200000, "colors": ["obsidian", "crimson"], "stock": [17, 0] }
+      ],
+      "images": [
+        { "url": "/renders/back-silver.jpg", "alt": "FAISTOF LITE rear in Silver", "colorKey": "silver", "primary": true },
+        { "url": "/renders/front-display.jpg", "alt": "LITE front display", "colorKey": null },
+        { "url": "/renders/back-obsidian.jpg", "alt": "LITE rear in Obsidian", "colorKey": "obsidian" },
+        { "url": "/renders/back-crimson.jpg", "alt": "LITE rear in Crimson", "colorKey": "crimson" }
+      ],
+      "specs": {
+        "flat": { "displaySize": 6.55, "refreshHz": 120, "nits": 1200, "chip": "Vertex 7s", "ramGb": 8, "storageMaxGb": 512, "mainCameraMP": 50, "batteryMah": 5000, "wiredChargeW": 67, "wirelessChargeW": 0, "weightG": 181, "os": "FaistOS 2.0", "ip": "IP64" },
+        "groups": [
+          { "group": "Display", "items": [
+            { "label": "Panel", "value": "LumenCore AMOLED" },
+            { "label": "Size", "value": "6.55\" (166mm) flat" },
+            { "label": "Resolution", "value": "2772 × 1256 (FHD+), 460 ppi" },
+            { "label": "Refresh", "value": "60–120Hz adaptive" },
+            { "label": "Brightness", "value": "900 nits typical · 1200 nits peak" }
+          ]},
+          { "group": "Performance", "items": [
+            { "label": "SoC", "value": "Vertex 7s · 4nm octa-core, 2.8GHz" },
+            { "label": "Memory", "value": "8 / 12GB LPDDR5" },
+            { "label": "Cooling", "value": "VaporGrid 2800mm²" }
+          ]},
+          { "group": "Camera", "items": [
+            { "label": "Main", "value": "50AM Pixel-Fusion · f/1.6 · OIS" },
+            { "label": "Ultra Wide", "value": "8MP · 118°" },
+            { "label": "Video", "value": "4K60 · 1080p240 slow-mo" }
+          ]},
+          { "group": "Battery & Charging", "items": [
+            { "label": "Cell", "value": "5000mAh dual-cell" },
+            { "label": "Wired", "value": "67W ChargeFlow · 0–100% in 38 min" }
+          ]},
+          { "group": "Body", "items": [
+            { "label": "Dimensions", "value": "158.2 × 73.9 × 7.8 mm" },
+            { "label": "Weight", "value": "181 g" },
+            { "label": "Ingress", "value": "IP64" }
+          ]},
+          { "group": "Connectivity", "items": [
+            { "label": "Cellular", "value": "5G SA/NSA" },
+            { "label": "Wi-Fi", "value": "Wi-Fi 6E" },
+            { "label": "Bluetooth", "value": "5.3" }
+          ]}
+        ]
+      },
+      "deal": null
+    },
+    {
+      "slug": "faistof-watch",
+      "name": "FAISTOF WATCH",
+      "tagline": "Time, engineered.",
+      "categorySlug": "wearables",
+      "basePrice": 3290000,
+      "compareAtPrice": null,
+      "featured": false,
+      "isNew": false,
+      "badge": null,
+      "ratingAverage": 4.6,
+      "ratingCount": 97,
+      "description": "A titanium-bezel instrument with a sapphire crystal face, dual-band navigation and fourteen days of silence on a single charge. It keeps your heart rate the way it keeps time: precisely.",
+      "highlights": ["1.43\" LumenDial AMOLED · 2000 nits", "Grade-5 titanium case · sapphire crystal", "Dual-band GPS · ECG · SpO₂", "14-day battery"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian Band", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson Band", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 100000 }
+      ],
+      "memory": [
+        { "ram": null, "storage": null, "priceDelta": 0, "colors": ["obsidian", "crimson"], "stock": [28, 13], "sizeOptions": [
+          { "label": "42mm", "priceDelta": 0 }, { "label": "46mm", "priceDelta": 300000 }
+        ]}
+      ],
+      "images": [
+        { "url": "/renders/hero-obsidian.jpg", "alt": "FAISTOF WATCH titanium case with crimson arcs", "colorKey": null, "primary": true }
+      ],
+      "specs": {
+        "flat": { "batteryMah": 580, "weightG": 48, "os": "FaistWear 3" },
+        "groups": [
+          { "group": "Display", "items": [
+            { "label": "Panel", "value": "1.43\" LumenDial AMOLED · 466×466" },
+            { "label": "Brightness", "value": "2000 nits always-on" },
+            { "label": "Crystal", "value": "Sapphire, AR-coated" }
+          ]},
+          { "group": "Sensors & Health", "items": [
+            { "label": "Sensors", "value": "ECG · SpO₂ · skin temp · 6-axis IMU · depth" },
+            { "label": "Navigation", "value": "Dual-band GPS + GLONASS + Galileo" },
+            { "label": "Training", "value": "140+ modes · VO₂ max · recovery load" }
+          ]},
+          { "group": "Battery", "items": [
+            { "label": "Endurance", "value": "14 days typical · 5 days always-on" },
+            { "label": "Charging", "value": "Magnetic puck · 0–80% in 45 min" }
+          ]},
+          { "group": "Build", "items": [
+            { "label": "Case", "value": "Grade-5 titanium · 10ATM + EN13319" },
+            { "label": "Weight", "value": "48 g without band" }
+          ]}
+        ]
+      },
+      "deal": "bundle"
+    },
+    {
+      "slug": "faistof-buds",
+      "name": "FAISTOF BUDS",
+      "tagline": "Silence, on demand.",
+      "categorySlug": "audio",
+      "basePrice": 1290000,
+      "compareAtPrice": 1490000,
+      "featured": false,
+      "isNew": false,
+      "badge": null,
+      "ratingAverage": 4.6,
+      "ratingCount": 231,
+      "description": "Hybrid adaptive noise cancellation that reads the room 600 times a second, and 11mm dual-magnet drivers tuned in the FAISTOF acoustics lab in Dhaka.",
+      "highlights": ["-50dB Adaptive Hybrid ANC", "11mm dual-magnet drivers · LDAC", "48h total endurance", "Spatial Audio with head tracking"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "silver", "label": "Silver", "hex": "#D8D9DC", "frameHex": "#9fa1a5", "priceDelta": 0 }
+      ],
+      "memory": [
+        { "ram": null, "storage": null, "priceDelta": 0, "colors": ["obsidian", "silver"], "stock": [64, 41] }
+      ],
+      "images": [
+        { "url": "/renders/macro-camera.jpg", "alt": "FAISTOF BUDS with charging case", "colorKey": null, "primary": true }
+      ],
+      "specs": {
+        "flat": { "batteryMah": 62, "weightG": 4.9 },
+        "groups": [
+          { "group": "Acoustics", "items": [
+            { "label": "Driver", "value": "11mm dual-magnet + planar tweeter" },
+            { "label": "Codecs", "value": "LDAC · LC3 · AAC · SBC" },
+            { "label": "Spatial", "value": "Head-tracked spatial audio" }
+          ]},
+          { "group": "Noise Control", "items": [
+            { "label": "ANC", "value": "Hybrid adaptive, up to -50dB" },
+            { "label": "Calls", "value": "3-mic AI voice isolation" }
+          ]},
+          { "group": "Battery", "items": [
+            { "label": "Buds", "value": "9h (ANC off) · 6.5h (ANC on)" },
+            { "label": "Case", "value": "48h total · 10 min = 3h" }
+          ]}
+        ]
+      },
+      "deal": "accessory"
+    },
+    {
+      "slug": "faistof-charge",
+      "name": "FAISTOF CHARGE",
+      "tagline": "120 watts of discipline.",
+      "categorySlug": "power",
+      "basePrice": 690000,
+      "compareAtPrice": null,
+      "featured": false,
+      "isNew": false,
+      "badge": null,
+      "ratingAverage": 4.7,
+      "ratingCount": 88,
+      "description": "A gallium-nitride charger the size of a matchbox that negotiates the full HyperCharge protocol — for FAISTOF devices first, everything else politely.",
+      "highlights": ["120W GaN · dual USB-C + USB-A", "Adaptive power split", "Ceramic thermal shell", "Foldable prongs"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 }
+      ],
+      "memory": [
+        { "ram": null, "storage": null, "priceDelta": 0, "colors": ["obsidian"], "stock": [120] }
+      ],
+      "images": [
+        { "url": "/renders/acc-charge.jpg", "alt": "FAISTOF CHARGE GaN adapter", "colorKey": null, "primary": true }
+      ],
+      "specs": {
+        "flat": {},
+        "groups": [
+          { "group": "Power", "items": [
+            { "label": "Output", "value": "120W max · PPS / PD 3.1 / UFCS" },
+            { "label": "Ports", "value": "2× USB-C · 1× USB-A" },
+            { "label": "Thermal", "value": "Ceramic shell · <48°C sustained" }
+          ]},
+          { "group": "Design", "items": [
+            { "label": "Volume", "value": "52 cm³ GaN III" },
+            { "label": "Extras", "value": "Foldable prongs · 1.5m braided cable included" }
+          ]}
+        ]
+      },
+      "deal": "accessory"
+    },
+    {
+      "slug": "faistof-case",
+      "name": "FAISTOF CASE",
+      "tagline": "0.65 millimeters of armor.",
+      "categorySlug": "protection",
+      "basePrice": 390000,
+      "compareAtPrice": null,
+      "featured": false,
+      "isNew": false,
+      "badge": null,
+      "ratingAverage": 4.4,
+      "ratingCount": 156,
+      "description": "Woven aramid fibre, one-way laid against the light, with a crimson micro-suede interior. It disappears in the hand and shows up when it matters.",
+      "highlights": ["Aerospace aramid weave", "0.65mm · 18g", "MagLift magnets aligned", "Crimson suede lining"],
+      "colors": [
+        { "key": "obsidian", "label": "Carbon Weave", "hex": "#111114", "frameHex": "#1d1d20", "priceDelta": 0 },
+        { "key": "crimson", "label": "Crimson Weave", "hex": "#8E1418", "frameHex": "#2a0d0e", "priceDelta": 60000 }
+      ],
+      "memory": [
+        { "ram": null, "storage": null, "priceDelta": 0, "colors": ["obsidian", "crimson"], "stock": [90, 22], "sizeOptions": [
+          { "label": "ONE / ONE PRO", "priceDelta": 0 }, { "label": "ONE ULTRA", "priceDelta": 40000 }
+        ]}
+      ],
+      "images": [
+        { "url": "/renders/acc-case.jpg", "alt": "FAISTOF CASE aramid fiber", "colorKey": null, "primary": true }
+      ],
+      "specs": {
+        "flat": {},
+        "groups": [
+          { "group": "Materials", "items": [
+            { "label": "Shell", "value": "600D aerospace aramid, one-way weave" },
+            { "label": "Interior", "value": "Micro-suede, crimson" },
+            { "label": "Thickness / Weight", "value": "0.65 mm · 18 g" }
+          ]},
+          { "group": "Fit", "items": [
+            { "label": "Magnets", "value": "MagLift array, aligned for 50W charging" },
+            { "label": "Buttons", "value": "Machined alloy capsules" }
+          ]}
+        ]
+      },
+      "deal": "accessory"
+    },
+    {
+      "slug": "faistof-power",
+      "name": "FAISTOF POWER",
+      "tagline": "Carry the grid.",
+      "categorySlug": "power",
+      "basePrice": 990000,
+      "compareAtPrice": 1090000,
+      "featured": false,
+      "isNew": false,
+      "badge": null,
+      "ratingAverage": 4.5,
+      "ratingCount": 73,
+      "description": "A 20,000mAh cell with a monochrome status display and 100W bidirectional HyperCharge. Airline-legal. Airport-honest.",
+      "highlights": ["20000mAh · 74Wh class", "100W in / 100W out", "LumenRead status display", "CryoSafe charging matrix"],
+      "colors": [
+        { "key": "obsidian", "label": "Obsidian", "hex": "#0B0B0D", "frameHex": "#1d1d20", "priceDelta": 0 }
+      ],
+      "memory": [
+        { "ram": null, "storage": null, "priceDelta": 0, "colors": ["obsidian"], "stock": [54] }
+      ],
+      "images": [
+        { "url": "/renders/acc-power.jpg", "alt": "FAISTOF POWER bank", "colorKey": null, "primary": true }
+      ],
+      "specs": {
+        "flat": {},
+        "groups": [
+          { "group": "Cell", "items": [
+            { "label": "Capacity", "value": "20000mAh · 74Wh" },
+            { "label": "Chemistry", "value": "Automotive-grade Li-ion cells" },
+            { "label": "Cycles", "value": "1000 cycles to 80%" }
+          ]},
+          { "group": "Output", "items": [
+            { "label": "Ports", "value": "2× USB-C · 1× USB-A" },
+            { "label": "Delivery", "value": "100W single / 65W+30W split" },
+            { "label": "Display", "value": "LumenRead OLED: watts, time-to-full, cell temp" }
+          ]}
+        ]
+      },
+      "deal": "accessory"
+    }
+  ],
+  "deals": [
+    { "key": "flash", "title": "Flash: FAISTOF ONE", "subtitle": "72 hours. 14% off the founding flagship.", "type": "FLASH", "hoursFromSeed": [-2, 30], "badge": "FLASH", "banner": "/renders/deal-flash.jpg" },
+    { "key": "flagship", "title": "Flagship Offers", "subtitle": "Extended configurator savings on PRO & ULTRA.", "type": "FLAGSHIP", "hoursFromSeed": [-48, 168], "badge": "UP TO 10%", "banner": "/renders/angle-obsidian.jpg" },
+    { "key": "bundle", "title": "Ecosystem Bundle", "subtitle": "Buy ONE with WATCH — the band joins the body.", "type": "BUNDLE", "hoursFromSeed": [0, 336], "badge": "BUNDLE", "banner": "/renders/hero-obsidian.jpg" },
+    { "key": "accessory", "title": "Accessory Season", "subtitle": "On audio, power and protection — while stock is held.", "type": "ACCESSORY", "hoursFromSeed": [-12, 96], "badge": "-15%", "banner": "/renders/macro-camera.jpg" }
+  ],
+  "coupons": [
+    { "code": "WELCOME10", "description": "10% off your first order", "type": "PERCENT", "value": 10, "minSubtotal": 1000000, "maxUses": 1000, "perUser": 1 },
+    { "code": "FAISTOF25", "description": "৳2,500 off orders above ৳100,000", "type": "FIXED", "value": 250000, "minSubtotal": 10000000, "maxUses": 500 },
+    { "code": "FREESHIP", "description": "Free express shipping", "type": "FREE_SHIPPING", "value": 150000, "minSubtotal": 200000 },
+    { "code": "EXPIRED5", "description": "Expired launch coupon", "type": "PERCENT", "value": 5, "expired": true, "active": false }
+  ],
+  "reviews": [
+    { "product": "faistof-one", "author": "Arif H.", "rating": 5, "title": "The scroll alone is worth it", "body": "Coming from a three-year-old flagship, the 120Hz LumenCore panel makes everything else feel like a slideshow. Battery genuinely holds a full workday of camera abuse.", "verified": true },
+    { "product": "faistof-one", "author": "Nusrat J.", "rating": 5, "title": "Crimson is understated, not loud", "body": "Expected a gaming-red phone; got a deep automotive oxblood that catches light only when it wants to. Camera at night is absurd.", "verified": true },
+    { "product": "faistof-one", "author": "Tanvir R.", "rating": 4, "title": "Excellent, with one wish", "body": "Performance and thermals under Genshin are class-leading. Wish the always-on display had more watch-face-style options. Charging 0-100 in my measured 26 minutes.", "verified": false },
+    { "product": "faistof-one", "author": "Sadia K.", "rating": 5, "title": "Zoom that earns its island", "body": "3× periscope prints A4 at night. The AI erase in gallery is scary good — removed a whole construction site from a rooftop shot.", "verified": true },
+    { "product": "faistof-one-pro", "author": "Imran A.", "rating": 5, "title": "The 1-inch sensor is not marketing", "body": "Low-light video has real dynamic range, and LOG grading held up without banding. 213g feels balanced because the mass is spread well.", "verified": true },
+    { "product": "faistof-one-pro", "author": "Rifat M.", "rating": 4, "title": "Near perfect shooter", "body": "Shutter lag fixed in last firmware. Wish wireless charging matched the wired speed, but 120W in 19 minutes makes up for it.", "verified": false },
+    { "product": "faistof-one-ultra", "author": "Farhana Q.", "rating": 5, "title": "Jewellery that makes calls", "body": "The ceramic laminate back and raw titanium edge are the most premium materials I have held. Numbered edition plate is a nice touch.", "verified": true },
+    { "product": "faistof-one-ultra", "author": "Zayan C.", "rating": 5, "title": "5x periscope changes how I shoot", "body": "Candid street photography without approaching anyone. 200× is a novelty but the 5x is daily-driver real.", "verified": true },
+    { "product": "faistof-lite", "author": "Mehedi S.", "rating": 4, "title": "Flagship manners, honest price", "body": "Same design language as the ONE at half the money. Camera is very good, not ultra-good — exactly what the price promises.", "verified": true },
+    { "product": "faistof-lite", "author": "Tasnim A.", "rating": 5, "title": "Perfect daily for family", "body": "Bought two. 67W charging, clean software, no ads. Halo AI summarizer works even on the 8GB model.", "verified": false },
+    { "product": "faistof-watch", "author": "Rakib U.", "rating": 5, "title": "Two-week thing is real", "body": "Day 11 at 22% with always-on disabled and daily training. Sapphire face has zero scratches after three months of desk abuse.", "verified": true },
+    { "product": "faistof-buds", "author": "Anika R.", "rating": 5, "title": "ANC for Dhaka traffic", "body": "Bus and construction noise simply leaves. Transparency mode is natural enough to keep for conversations.", "verified": true },
+    { "product": "faistof-buds", "author": "Shahriar K.", "rating": 4, "title": "Great sound, wish for multipoint", "body": "LDAC with the ONE is excellent. Multipoint between laptop and phone arrived in firmware — works fine now.", "verified": false },
+    { "product": "faistof-charge", "author": "Sabrina H.", "rating": 5, "title": "Smaller than I believed", "body": "Full HyperCharge speed from a brick the size of a matchbox and it stays cool. Travel charger for life.", "verified": true },
+    { "product": "faistof-case", "author": "Nafis T.", "rating": 4, "title": "Aramid that looks expensive", "body": "The weave direction catches light exactly like the campaign photos. Two drops survived without a mark. Slim to install though.", "verified": true },
+    { "product": "faistof-power", "author": "Ghazi M.", "rating": 5, "title": "Load-shedding insurance", "body": "Two full phone charges plus a laptop top-up. The LumenRead display is nerdy perfection.", "verified": true }
+  ],
+  "customers": [
+    { "email": "admin@faistof.com", "password": "Admin!Faistof23", "name": "Faistof Admin", "role": "ADMIN" },
+    { "email": "demo@faistof.com", "password": "Faistof!Demo1", "name": "Rafi Demo", "role": "CUSTOMER", "phone": "+8801711223344" },
+    { "email": "arif.haque@example.com", "password": "Faistof!Demo1", "name": "Arif Haque", "role": "CUSTOMER" },
+    { "email": "nusrat.jahan@example.com", "password": "Faistof!Demo1", "name": "Nusrat Jahan", "role": "CUSTOMER" },
+    { "email": "tanvir.rahman@example.com", "password": "Faistof!Demo1", "name": "Tanvir Rahman", "role": "CUSTOMER" },
+    { "email": "sadia.karim@example.com", "password": "Faistof!Demo1", "name": "Sadia Karim", "role": "CUSTOMER" },
+    { "email": "imran.ahmed@example.com", "password": "Faistof!Demo1", "name": "Imran Ahmed", "role": "CUSTOMER" },
+    { "email": "farhana.quddus@example.com", "password": "Faistof!Demo1", "name": "Farhana Quddus", "role": "CUSTOMER" }
+  ],
+  "settings": {
+    "taxRate": 5,
+    "freeShippingAbove": 5000000,
+    "shippingStandard": 29900,
+    "shippingExpress": 150000,
+    "shippingPickup": 0,
+    "storeName": "FAISTOF Commerce Ltd.",
+    "supportEmail": "care@faistof.com",
+    "heroMode": "cinematic"
+  }
+}
